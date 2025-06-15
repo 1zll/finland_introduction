@@ -1,0 +1,248 @@
+/*--------header---------*/
+.header{
+    width: auto;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    background-color: #003580;
+}
+
+.header svg {
+    color: #fff;
+    margin-left: 2rem;
+    margin-right: auto;
+}
+
+.nav-text{
+    font-size: 1.25rem;
+    font-family: 'Alata', sans-serif;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.nav-text a{
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-text li{
+    margin-bottom: auto;
+    background: linear-gradient(currentColor 0 0)
+                bottom/var(--d,0) 3px
+                no-repeat;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.nav-text li:hover{
+    --d:50%
+}
+/*--------------------*/
+
+/*home.html main slide*/
+#carouselExampleIndicators{
+    width: 100%;
+    height: 100%;
+}
+/*--------------------*/
+
+/*home.html  main*/
+.image{
+    width: auto;
+    height: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image img {
+    max-width: 100%; /* 画像が親要素内に収まるようにする */
+    height: auto;
+}
+
+.flex .flex-text{
+    margin-top: 120px;
+    margin-right: 60px;
+    margin-left: 60px;
+    font-size: 26px;
+    font-family: 'Alata',sans-serif;
+    display: flex;
+    color: #003580;
+}
+
+/*---------------*/
+
+/*home.html profile inquiry*/
+.menu-text{
+    font-size: 1.25rem;
+    font-family: 'Alata', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu-text li{
+    padding: 10px;
+}
+
+.menu-text a{
+    text-align: center;
+    text-decoration: none;
+    color: #003580;
+}
+
+/*-------------------------*/
+
+/*--------footer--------*/
+/*中央揃えにしたいとき
+ display:flex; align-items:center; justify-content:center;
+ p(要素)にmargin:0; 
+とするとできる*/
+
+.footer{
+    width: auto;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #003580;
+}
+
+.copyright{
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Alata',sans-serif;
+    margin: 0;
+}
+/*----------------------*/
+
+/*--------------------------*/
+
+/*---inquiry.html form---*/
+.form-head{
+    margin: 50px;
+    text-align: center;
+    color: #003580;
+    font-family: 'Alata',sans-serif;
+}
+
+.form-container{
+    margin: 100px 50px;
+    display: block;
+    justify-content: center;
+}
+
+.form-container input{
+    width: 100%;
+    line-height: 50px;
+    font-size: medium;
+    padding-left: 15px;
+    outline: solid 2px #003580;
+    border-radius: 20px;
+}
+
+.form-container input::placeholder{
+    font-size: 20px;
+    font-family: 'Alata',sans-serif;
+    text-align: left;
+}
+
+.form-name{
+    color: #003580;
+    font-size: 40px;
+    font-family: 'Alata',sans-serif;
+}
+
+.form-container textarea{
+    width: 100%;
+    height: 10rem;
+    font-size: medium;
+    padding-top: 5px;
+    padding-left: 15px;
+    outline: solid 2px #003580;
+    border-radius: 20px;
+}
+
+.form-container textarea::placeholder{
+    font-size: 20px;
+    font-family: 'Alata',sans-serif;
+    text-align: left;
+}
+
+/*---------------------------*/
+
+/*----送るボタン----*/
+div.btn {
+    width: 100px;
+    height: auto;
+    color: #003580;
+    background-color: white;
+    border: solid 2px #003580;
+    border-bottom: 5px solid #003580;
+    margin-bottom: 50px;
+}
+  
+div.btn:hover {
+    color: #fff;
+    background: #003580;
+    border-bottom: 2px solid #003580;
+}
+/*-----------------------*/
+
+/*-----travel.html-----*/
+section{
+    font-family: 'Alata',sans-serif;
+}
+
+.card-title{
+    color: #003580;
+}
+
+.card-img-top{
+    border-radius: 20px;
+}
+
+.m-4{
+    padding: 3rem 0;
+}
+/*---------------------*/
+
+/*-----send_ok.html-----*/
+.h1_word{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+    color: #003580;
+}
+
+.p_word{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0;
+    color: #003580;
+}
+
+.footer_send{
+    width: 100%;
+    height: 5rem;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #003580;
+}
+/*----------------------*/
