@@ -31,7 +31,7 @@ Figmaを使ってデザインを考えてみたかった。
 ### 言語
 - HTML
 - CSS
-- JavaScript
+- JavaScript(.htmlの<script>タグで記入)
 
 ### フレームワーク
 - [Bootstrap](https://getbootstrap.jp/)
